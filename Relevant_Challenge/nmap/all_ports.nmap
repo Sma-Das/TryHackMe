@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated Tue Jun 29 17:56:37 2021 as: nmap -p- -oN nmap/all_ports.nmap 10.10.227.93
+Nmap scan report for 10.10.227.93
+Host is up (0.17s latency).
+Not shown: 65527 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49663/tcp open  unknown
+49667/tcp open  unknown
+49669/tcp open  unknown
+
+# Nmap done at Tue Jun 29 18:04:04 2021 -- 1 IP address (1 host up) scanned in 446.81 seconds

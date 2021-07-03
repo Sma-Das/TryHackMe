@@ -1,0 +1,1734 @@
+# Nmap 7.91 scan initiated Tue Jun 29 17:24:34 2021 as: nmap --script=msrpc-enum -oN msrpc_enum_script.nmap 10.10.227.93
+Nmap scan report for 10.10.227.93
+Host is up (0.18s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Host script results:
+| msrpc-enum: 
+|   
+|     tcp_port: 49664
+|     ip_addr: 0.0.0.0
+|     uuid: d95afe70-a6d5-4259-822e-2c84da1ddb0d
+|   
+|     uuid: 906b0ce0-c70b-1067-b317-00dd010662da
+|     ncalrpc: LRPC-5e709971b8e7558ab6
+|   
+|     uuid: 906b0ce0-c70b-1067-b317-00dd010662da
+|     ncalrpc: LRPC-5e709971b8e7558ab6
+|   
+|     uuid: 906b0ce0-c70b-1067-b317-00dd010662da
+|     ncalrpc: LRPC-5e709971b8e7558ab6
+|   
+|     uuid: f3f09ffd-fbcf-4291-944d-70ad6e0e73bb
+|     ncalrpc: LRPC-f54285c862f87ce1cf
+|   
+|     uuid: 76f226c3-ec14-4325-8a99-6a46348418af
+|     ncalrpc: WMsgKRpc0579E1
+|   
+|     annotation: CLIPSVC Default RPC Interface
+|     uuid: 64d1d045-f675-460b-8a94-570246b36dab
+|     ncalrpc: ClipServiceTransportEndpoint-00001
+|   
+|     tcp_port: 49670
+|     ip_addr: 0.0.0.0
+|     uuid: 367abb81-9844-35f1-ad32-98f038001003
+|   
+|     annotation: SPPSVC Default RPC Interface
+|     uuid: 9435cc56-1d9c-4924-ac7d-b60a2c3520e1
+|     ncalrpc: SPPCTransportEndpoint-00001
+|   
+|     uuid: 4c9dbf19-d39e-4bb9-90ee-8f7179b20283
+|     ncalrpc: LRPC-8b75a1a862c1f5a9d5
+|   
+|     uuid: e38f5360-8572-473e-b696-1b46873beeab
+|     ncalrpc: LRPC-8b75a1a862c1f5a9d5
+|   
+|     uuid: e38f5360-8572-473e-b696-1b46873beeab
+|     ncalrpc: OLE5397521749CB1075B91B6312F55D
+|   
+|     annotation: XactSrv service
+|     uuid: 98716d03-89ac-44c7-bb8c-285824e51c4a
+|     ncalrpc: LRPC-0d0f8b52e53b3ed5a6
+|   
+|     annotation: IdSegSrv service
+|     uuid: 1a0d010f-1c33-432c-b0f5-8cf4e8053099
+|     ncalrpc: LRPC-0d0f8b52e53b3ed5a6
+|   
+|     uuid: 12345678-1234-abcd-ef00-0123456789ab
+|     ncalrpc: LRPC-bac779db8a5dfc9eb9
+|   
+|     tcp_port: 49669
+|     ip_addr: 0.0.0.0
+|     uuid: 12345678-1234-abcd-ef00-0123456789ab
+|   
+|     uuid: 0b6edbfa-4a24-4fc6-8a23-942b1eca65d1
+|     ncalrpc: LRPC-bac779db8a5dfc9eb9
+|   
+|     tcp_port: 49669
+|     ip_addr: 0.0.0.0
+|     uuid: 0b6edbfa-4a24-4fc6-8a23-942b1eca65d1
+|   
+|     uuid: ae33069b-a2a8-46ee-a235-ddfd339be281
+|     ncalrpc: LRPC-bac779db8a5dfc9eb9
+|   
+|     tcp_port: 49669
+|     ip_addr: 0.0.0.0
+|     uuid: ae33069b-a2a8-46ee-a235-ddfd339be281
+|   
+|     uuid: 4a452661-8290-4b36-8fbe-7f4093a94978
+|     ncalrpc: LRPC-bac779db8a5dfc9eb9
+|   
+|     tcp_port: 49669
+|     ip_addr: 0.0.0.0
+|     uuid: 4a452661-8290-4b36-8fbe-7f4093a94978
+|   
+|     uuid: 76f03f96-cdfd-44fc-a22c-64950a001209
+|     ncalrpc: LRPC-bac779db8a5dfc9eb9
+|   
+|     tcp_port: 49669
+|     ip_addr: 0.0.0.0
+|     uuid: 76f03f96-cdfd-44fc-a22c-64950a001209
+|   
+|     uuid: abfb6ca3-0c5e-4734-9285-0aee72fe8d1c
+|     ncalrpc: LRPC-6349086a7d46929eba
+|   
+|     uuid: b37f900a-eae4-4304-a2ab-12bb668c0188
+|     ncalrpc: LRPC-6349086a7d46929eba
+|   
+|     uuid: b3781086-6a54-489b-91c8-51d067172ab7
+|     ncalrpc: LRPC-6349086a7d46929eba
+|   
+|     uuid: e7f76134-9ef5-4949-a2d6-3368cc0988f3
+|     ncalrpc: LRPC-6349086a7d46929eba
+|   
+|     uuid: 7aeb6705-3ae6-471a-882d-f39c109edc12
+|     ncalrpc: LRPC-6349086a7d46929eba
+|   
+|     annotation: Witness Client Upcall Server
+|     uuid: f2c9b409-c1c9-4100-8639-d8ab1486694a
+|     ncalrpc: nlaplg
+|   
+|     annotation: Witness Client Test Interface
+|     uuid: eb081a0d-10ee-478a-a1dd-50995283e7a8
+|     ncalrpc: nlaplg
+|   
+|     annotation: DfsDs service
+|     uuid: 7f1343fe-50a9-4927-a778-0c5859517bac
+|     ncalrpc: nlaplg
+|   
+|     netbios: \\RELEVANT
+|     annotation: DfsDs service
+|     uuid: 7f1343fe-50a9-4927-a778-0c5859517bac
+|     ncacn_np: \PIPE\wkssvc
+|   
+|     uuid: 30b044a5-a225-43f0-b3a4-e060df91f9c1
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     uuid: 30b044a5-a225-43f0-b3a4-e060df91f9c1
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: senssvc
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: senssvc
+|   
+|     uuid: 29770a8f-829b-4158-90a2-78cd488501f7
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     uuid: 29770a8f-829b-4158-90a2-78cd488501f7
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     uuid: 29770a8f-829b-4158-90a2-78cd488501f7
+|     ncalrpc: IUserProfile2
+|   
+|     uuid: 29770a8f-829b-4158-90a2-78cd488501f7
+|     ncalrpc: senssvc
+|   
+|     uuid: 29770a8f-829b-4158-90a2-78cd488501f7
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     uuid: 29770a8f-829b-4158-90a2-78cd488501f7
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     ip_addr: 0.0.0.0
+|     uuid: 29770a8f-829b-4158-90a2-78cd488501f7
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: senssvc
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     annotation: Impl friendly name
+|     ip_addr: 0.0.0.0
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|   
+|     annotation: Group Policy RPC Interface
+|     uuid: 2eb08e3e-639f-4fba-97b1-14f878961076
+|     ncalrpc: LRPC-c10096760b1fbafaf2
+|   
+|     uuid: 0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     uuid: 0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     uuid: 0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+|     ncalrpc: IUserProfile2
+|   
+|     uuid: 0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+|     ncalrpc: senssvc
+|   
+|     uuid: 0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     uuid: 0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     ip_addr: 0.0.0.0
+|     uuid: 0a74ef1c-41a4-4e06-83ae-dc74fb1cdd53
+|   
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|     ncalrpc: IUserProfile2
+|   
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|     ncalrpc: senssvc
+|   
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     ip_addr: 0.0.0.0
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|   
+|     netbios: \\RELEVANT
+|     exe: mstask.exe atsvc interface (Scheduler service)
+|     uuid: 1ff70682-0a51-30e8-076d-740be8cee98b
+|     ncacn_np: \PIPE\atsvc
+|   
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|     ncalrpc: IUserProfile2
+|   
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|     ncalrpc: senssvc
+|   
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     ip_addr: 0.0.0.0
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|   
+|     netbios: \\RELEVANT
+|     uuid: 378e52b0-c0a9-11cf-822d-00aa0051e40f
+|     ncacn_np: \PIPE\atsvc
+|   
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncalrpc: IUserProfile2
+|   
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncalrpc: senssvc
+|   
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     ip_addr: 0.0.0.0
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|   
+|     netbios: \\RELEVANT
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncacn_np: \PIPE\atsvc
+|   
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     uuid: 33d84484-3626-47ee-8c6f-e7e98b113be1
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncalrpc: IUserProfile2
+|   
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncalrpc: senssvc
+|   
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     ip_addr: 0.0.0.0
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|   
+|     netbios: \\RELEVANT
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncacn_np: \PIPE\atsvc
+|   
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     uuid: 86d35949-83c9-4044-b424-db363231fd0c
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncalrpc: IUserProfile2
+|   
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncalrpc: senssvc
+|   
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     ip_addr: 0.0.0.0
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|   
+|     netbios: \\RELEVANT
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncacn_np: \PIPE\atsvc
+|   
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     uuid: 3a9ef155-691d-4449-8d05-09ad57031823
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: senssvc
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     annotation: UserMgrCli
+|     ip_addr: 0.0.0.0
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|   
+|     netbios: \\RELEVANT
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncacn_np: \PIPE\atsvc
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: DeviceSetupManager
+|   
+|     annotation: UserMgrCli
+|     uuid: b18fbab6-56f8-4702-84e0-41053293a869
+|     ncalrpc: LRPC-98de7815fa9919a515
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: senssvc
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     annotation: UserMgrCli
+|     ip_addr: 0.0.0.0
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|   
+|     netbios: \\RELEVANT
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncacn_np: \PIPE\atsvc
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: DeviceSetupManager
+|   
+|     annotation: UserMgrCli
+|     uuid: 0d3c7f20-1c8d-4654-a1b3-51563b298bda
+|     ncalrpc: LRPC-98de7815fa9919a515
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: senssvc
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     annotation: IP Transition Configuration endpoint
+|     ip_addr: 0.0.0.0
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|   
+|     netbios: \\RELEVANT
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncacn_np: \PIPE\atsvc
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: DeviceSetupManager
+|   
+|     annotation: IP Transition Configuration endpoint
+|     uuid: 552d076a-cb29-4e44-8b6a-d15e59e2c0af
+|     ncalrpc: LRPC-98de7815fa9919a515
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: senssvc
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     annotation: Proxy Manager provider server endpoint
+|     ip_addr: 0.0.0.0
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|   
+|     netbios: \\RELEVANT
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncacn_np: \PIPE\atsvc
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: DeviceSetupManager
+|   
+|     annotation: Proxy Manager provider server endpoint
+|     uuid: 2e6035b2-e8f1-41a7-a044-656b439c4c34
+|     ncalrpc: LRPC-98de7815fa9919a515
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: senssvc
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     annotation: Proxy Manager client server endpoint
+|     ip_addr: 0.0.0.0
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|   
+|     netbios: \\RELEVANT
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncacn_np: \PIPE\atsvc
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: DeviceSetupManager
+|   
+|     annotation: Proxy Manager client server endpoint
+|     uuid: c36be077-e14b-4fe9-8abc-e856ef4f048b
+|     ncalrpc: LRPC-98de7815fa9919a515
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: OLE5D360EA1BA6C84E4F9FAFFE3700C
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: LRPC-613835dcd3dfded5d9
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: IUserProfile2
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: senssvc
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: SessEnvPrivateRpc
+|   
+|     netbios: \\RELEVANT
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncacn_np: \pipe\SessEnvPublicRpc
+|   
+|     tcp_port: 49667
+|     annotation: Adh APIs
+|     ip_addr: 0.0.0.0
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|   
+|     netbios: \\RELEVANT
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncacn_np: \PIPE\atsvc
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: ubpmtaskhostchannel
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: LRPC-1d7fc612629711a7ee
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: DeviceSetupManager
+|   
+|     annotation: Adh APIs
+|     uuid: c49a5a70-8a7f-4e70-ba16-1e8f1f193ef1
+|     ncalrpc: LRPC-98de7815fa9919a515
+|   
+|     annotation: LiveIdSvc RPC Interface
+|     uuid: cc105610-da03-467e-bc73-5b9e2937458d
+|     ncalrpc: LRPC-cfb2b00cc632e07e81
+|   
+|     annotation: OnlineProviderCert RPC Interface
+|     uuid: faf2447b-b348-4feb-8dbe-beee5b7f7778
+|     ncalrpc: LRPC-cfb2b00cc632e07e81
+|   
+|     annotation: LiveIdSvcNotify RPC Interface
+|     uuid: 572e35b4-1344-4565-96a1-f5df3bfa89bb
+|     ncalrpc: liveidsvcnotify
+|   
+|     annotation: NSI server endpoint
+|     uuid: 7ea70bcf-48af-4f6a-8968-6a440754d5fa
+|     ncalrpc: LRPC-89287d16eb88996f92
+|   
+|     annotation: WinHttp Auto-Proxy Service
+|     uuid: 3473dd4d-2e88-4006-9cba-22570909dd10
+|     ncalrpc: LRPC-89287d16eb88996f92
+|   
+|     annotation: WinHttp Auto-Proxy Service
+|     uuid: 3473dd4d-2e88-4006-9cba-22570909dd10
+|     ncalrpc: OLEF6FA3FB21B12EE78B00B1A8272E6
+|   
+|     netbios: \\RELEVANT
+|     annotation: RemoteRegistry Interface
+|     exe: RemoteRegistry winreg interface (Remote registry service)
+|     uuid: 338cd001-2244-31f1-aaaa-900038001003
+|     ncacn_np: \PIPE\winreg
+|   
+|     netbios: \\RELEVANT
+|     annotation: RemoteRegistry Perflib Interface
+|     uuid: da5a86c5-12c2-4943-ab30-7f74a813d853
+|     ncacn_np: \PIPE\winreg
+|   
+|     annotation: LicenseManager
+|     uuid: a4b8d482-80ce-40d6-934d-b22a01a44fe7
+|     ncalrpc: LicenseServiceEndpoint
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-8f0019bf9ab593fee5
+|   
+|     annotation: Network Connection Broker server endpoint for NCB Reset module
+|     uuid: 5222821f-d5e2-4885-84f1-5f6185a0ec41
+|     ncalrpc: LRPC-8f0019bf9ab593fee5
+|   
+|     annotation: Network Connection Broker server endpoint for NCB Reset module
+|     uuid: 5222821f-d5e2-4885-84f1-5f6185a0ec41
+|     ncalrpc: LRPC-b91d416b7fd5f664d3
+|   
+|     annotation: KAPI Service endpoint
+|     uuid: 880fd55e-43b9-11e0-b1a8-cf4edfd72085
+|     ncalrpc: LRPC-8f0019bf9ab593fee5
+|   
+|     annotation: KAPI Service endpoint
+|     uuid: 880fd55e-43b9-11e0-b1a8-cf4edfd72085
+|     ncalrpc: LRPC-b91d416b7fd5f664d3
+|   
+|     annotation: KAPI Service endpoint
+|     uuid: 880fd55e-43b9-11e0-b1a8-cf4edfd72085
+|     ncalrpc: OLE4EC0ABFB5A665694BD47EBD5C2A8
+|   
+|     annotation: KAPI Service endpoint
+|     uuid: 880fd55e-43b9-11e0-b1a8-cf4edfd72085
+|     ncalrpc: TSUMRPD_PRINT_DRV_LPC_API
+|   
+|     annotation: KAPI Service endpoint
+|     uuid: 880fd55e-43b9-11e0-b1a8-cf4edfd72085
+|     ncalrpc: LRPC-453c36623c214cde94
+|   
+|     annotation: Network Connection Broker server endpoint
+|     uuid: e40f7b57-7a25-4cd3-a135-7f7d3df9d16b
+|     ncalrpc: LRPC-8f0019bf9ab593fee5
+|   
+|     annotation: Network Connection Broker server endpoint
+|     uuid: e40f7b57-7a25-4cd3-a135-7f7d3df9d16b
+|     ncalrpc: LRPC-b91d416b7fd5f664d3
+|   
+|     annotation: Network Connection Broker server endpoint
+|     uuid: e40f7b57-7a25-4cd3-a135-7f7d3df9d16b
+|     ncalrpc: OLE4EC0ABFB5A665694BD47EBD5C2A8
+|   
+|     annotation: Network Connection Broker server endpoint
+|     uuid: e40f7b57-7a25-4cd3-a135-7f7d3df9d16b
+|     ncalrpc: TSUMRPD_PRINT_DRV_LPC_API
+|   
+|     annotation: Network Connection Broker server endpoint
+|     uuid: e40f7b57-7a25-4cd3-a135-7f7d3df9d16b
+|     ncalrpc: LRPC-453c36623c214cde94
+|   
+|     annotation: PcaSvc
+|     uuid: 0767a036-0d22-48aa-ba69-b619480f38cb
+|     ncalrpc: LRPC-8f0019bf9ab593fee5
+|   
+|     annotation: PcaSvc
+|     uuid: 0767a036-0d22-48aa-ba69-b619480f38cb
+|     ncalrpc: LRPC-b91d416b7fd5f664d3
+|   
+|     annotation: PcaSvc
+|     uuid: 0767a036-0d22-48aa-ba69-b619480f38cb
+|     ncalrpc: OLE4EC0ABFB5A665694BD47EBD5C2A8
+|   
+|     annotation: PcaSvc
+|     uuid: 0767a036-0d22-48aa-ba69-b619480f38cb
+|     ncalrpc: TSUMRPD_PRINT_DRV_LPC_API
+|   
+|     annotation: PcaSvc
+|     uuid: 0767a036-0d22-48aa-ba69-b619480f38cb
+|     ncalrpc: LRPC-453c36623c214cde94
+|   
+|     annotation: NRP server endpoint
+|     uuid: 30adc50c-5cbc-46ce-9a0e-91914789e23c
+|     ncalrpc: LRPC-5e9ee16541930df9a4
+|   
+|     annotation: Event log TCPIP
+|     uuid: f6beaff7-1e19-4fbb-9f8f-b89e2018337c
+|     ncalrpc: LRPC-5e9ee16541930df9a4
+|   
+|     annotation: Event log TCPIP
+|     uuid: f6beaff7-1e19-4fbb-9f8f-b89e2018337c
+|     ncalrpc: eventlog
+|   
+|     netbios: \\RELEVANT
+|     annotation: Event log TCPIP
+|     uuid: f6beaff7-1e19-4fbb-9f8f-b89e2018337c
+|     ncacn_np: \pipe\eventlog
+|   
+|     tcp_port: 49666
+|     annotation: Event log TCPIP
+|     ip_addr: 0.0.0.0
+|     uuid: f6beaff7-1e19-4fbb-9f8f-b89e2018337c
+|   
+|     annotation: DHCPv6 Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
+|     ncalrpc: LRPC-5e9ee16541930df9a4
+|   
+|     annotation: DHCPv6 Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
+|     ncalrpc: eventlog
+|   
+|     netbios: \\RELEVANT
+|     annotation: DHCPv6 Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
+|     ncacn_np: \pipe\eventlog
+|   
+|     tcp_port: 49666
+|     annotation: DHCPv6 Client LRPC Endpoint
+|     ip_addr: 0.0.0.0
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
+|   
+|     annotation: DHCPv6 Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d6
+|     ncalrpc: dhcpcsvc6
+|   
+|     annotation: DHCP Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+|     ncalrpc: LRPC-5e9ee16541930df9a4
+|   
+|     annotation: DHCP Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+|     ncalrpc: eventlog
+|   
+|     netbios: \\RELEVANT
+|     annotation: DHCP Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+|     ncacn_np: \pipe\eventlog
+|   
+|     tcp_port: 49666
+|     annotation: DHCP Client LRPC Endpoint
+|     ip_addr: 0.0.0.0
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+|   
+|     annotation: DHCP Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+|     ncalrpc: dhcpcsvc6
+|   
+|     annotation: DHCP Client LRPC Endpoint
+|     uuid: 3c4728c5-f0ab-448b-bda1-6ce01eb0a6d5
+|     ncalrpc: dhcpcsvc
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-5e9ee16541930df9a4
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: eventlog
+|   
+|     netbios: \\RELEVANT
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncacn_np: \pipe\eventlog
+|   
+|     tcp_port: 49666
+|     ip_addr: 0.0.0.0
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: dhcpcsvc6
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: dhcpcsvc
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-1676746344fc728e18
+|   
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|     ncalrpc: LRPC-5e9ee16541930df9a4
+|   
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|     ncalrpc: eventlog
+|   
+|     netbios: \\RELEVANT
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|     ncacn_np: \pipe\eventlog
+|   
+|     tcp_port: 49666
+|     ip_addr: 0.0.0.0
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|   
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|     ncalrpc: dhcpcsvc6
+|   
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|     ncalrpc: dhcpcsvc
+|   
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|     ncalrpc: LRPC-1676746344fc728e18
+|   
+|     uuid: a500d4c6-0dd1-4543-bc0c-d5f93486eaf8
+|     ncalrpc: LRPC-8a9a6c1ffc1acd6746
+|   
+|     annotation: WM_WindowManagerRPC\Server
+|     uuid: df4df73a-c52d-4e3a-8003-8437fdf8302a
+|     ncalrpc: LRPC-3fd3a2bc297f1ce85e
+|   
+|     annotation: Base Firewall Engine API
+|     uuid: dd490425-5325-4565-b774-7e27d6c09c24
+|     ncalrpc: LRPC-3fd3a2bc297f1ce85e
+|   
+|     annotation: Base Firewall Engine API
+|     uuid: dd490425-5325-4565-b774-7e27d6c09c24
+|     ncalrpc: LRPC-1f2dad69ace27881a3
+|   
+|     annotation: Fw APIs
+|     uuid: 7f9d11bf-7fb9-436b-a812-b2d50c5d4c03
+|     ncalrpc: LRPC-3fd3a2bc297f1ce85e
+|   
+|     annotation: Fw APIs
+|     uuid: 7f9d11bf-7fb9-436b-a812-b2d50c5d4c03
+|     ncalrpc: LRPC-1f2dad69ace27881a3
+|   
+|     annotation: Fw APIs
+|     uuid: 7f9d11bf-7fb9-436b-a812-b2d50c5d4c03
+|     ncalrpc: LRPC-c4c7ee048e1a074c01
+|   
+|     annotation: Fw APIs
+|     uuid: f47433c3-3e9d-4157-aad4-83aa1f5c2d4c
+|     ncalrpc: LRPC-3fd3a2bc297f1ce85e
+|   
+|     annotation: Fw APIs
+|     uuid: f47433c3-3e9d-4157-aad4-83aa1f5c2d4c
+|     ncalrpc: LRPC-1f2dad69ace27881a3
+|   
+|     annotation: Fw APIs
+|     uuid: f47433c3-3e9d-4157-aad4-83aa1f5c2d4c
+|     ncalrpc: LRPC-c4c7ee048e1a074c01
+|   
+|     annotation: Fw APIs
+|     uuid: 2fb92682-6599-42dc-ae13-bd2ca89bd11c
+|     ncalrpc: LRPC-3fd3a2bc297f1ce85e
+|   
+|     annotation: Fw APIs
+|     uuid: 2fb92682-6599-42dc-ae13-bd2ca89bd11c
+|     ncalrpc: LRPC-1f2dad69ace27881a3
+|   
+|     annotation: Fw APIs
+|     uuid: 2fb92682-6599-42dc-ae13-bd2ca89bd11c
+|     ncalrpc: LRPC-c4c7ee048e1a074c01
+|   
+|     netbios: \\RELEVANT
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncacn_np: \pipe\lsass
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: audit
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: securityevent
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: LSARPC_ENDPOINT
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: lsacap
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: LSA_IDPEXT_ENDPOINT
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: LSA_EAS_ENDPOINT
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: lsapolicylookup
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: lsasspirpc
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: protected_storage
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: SidKey Local End Point
+|   
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|     ncalrpc: samss lpc
+|   
+|     tcp_port: 49665
+|     ip_addr: 0.0.0.0
+|     exe: lsass.exe samr interface
+|     uuid: 12345778-1234-abcd-ef00-0123456789ac
+|   
+|     netbios: \\RELEVANT
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncacn_np: \pipe\lsass
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: audit
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: securityevent
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: LSARPC_ENDPOINT
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: lsacap
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: LSA_IDPEXT_ENDPOINT
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: LSA_EAS_ENDPOINT
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: lsapolicylookup
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: lsasspirpc
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: protected_storage
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: SidKey Local End Point
+|   
+|     annotation: KeyIso
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|     ncalrpc: samss lpc
+|   
+|     tcp_port: 49665
+|     annotation: KeyIso
+|     ip_addr: 0.0.0.0
+|     uuid: b25a52bf-e5dd-4f4a-aea6-8ca7272a0e86
+|   
+|     netbios: \\RELEVANT
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncacn_np: \pipe\lsass
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: audit
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: securityevent
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: LSARPC_ENDPOINT
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: lsacap
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: LSA_IDPEXT_ENDPOINT
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: LSA_EAS_ENDPOINT
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: lsapolicylookup
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: lsasspirpc
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: protected_storage
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: SidKey Local End Point
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|     ncalrpc: samss lpc
+|   
+|     tcp_port: 49665
+|     annotation: Ngc Pop Key Service
+|     ip_addr: 0.0.0.0
+|     uuid: 8fb74744-b2ff-4c00-be0d-9ef9a191fe1b
+|   
+|     netbios: \\RELEVANT
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncacn_np: \pipe\lsass
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: audit
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: securityevent
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: LSARPC_ENDPOINT
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: lsacap
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: LSA_IDPEXT_ENDPOINT
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: LSA_EAS_ENDPOINT
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: lsapolicylookup
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: lsasspirpc
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: protected_storage
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: SidKey Local End Point
+|   
+|     annotation: Ngc Pop Key Service
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|     ncalrpc: samss lpc
+|   
+|     tcp_port: 49665
+|     annotation: Ngc Pop Key Service
+|     ip_addr: 0.0.0.0
+|     uuid: 51a227ae-825b-41f2-b4a9-1ac9557a1018
+|   
+|     uuid: 4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9
+|     ncalrpc: umpo
+|   
+|     uuid: 4bec6bb8-b5c2-4b6f-b2c1-5da5cf92d0d9
+|     ncalrpc: actkernel
+|   
+|     uuid: 085b0334-e454-4d91-9b8c-4134f9e793f3
+|     ncalrpc: umpo
+|   
+|     uuid: 085b0334-e454-4d91-9b8c-4134f9e793f3
+|     ncalrpc: actkernel
+|   
+|     uuid: 8782d3b9-ebbd-4644-a3d8-e8725381919b
+|     ncalrpc: umpo
+|   
+|     uuid: 8782d3b9-ebbd-4644-a3d8-e8725381919b
+|     ncalrpc: actkernel
+|   
+|     uuid: 3b338d89-6cfa-44b8-847e-531531bc9992
+|     ncalrpc: umpo
+|   
+|     uuid: 3b338d89-6cfa-44b8-847e-531531bc9992
+|     ncalrpc: actkernel
+|   
+|     uuid: bdaa0970-413b-4a3e-9e5d-f6dc9d7e0760
+|     ncalrpc: umpo
+|   
+|     uuid: bdaa0970-413b-4a3e-9e5d-f6dc9d7e0760
+|     ncalrpc: actkernel
+|   
+|     uuid: 5824833b-3c1a-4ad2-bdfd-c31d19e23ed2
+|     ncalrpc: umpo
+|   
+|     uuid: 5824833b-3c1a-4ad2-bdfd-c31d19e23ed2
+|     ncalrpc: actkernel
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: umpo
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: actkernel
+|   
+|     annotation: Impl friendly name
+|     uuid: c9ac6db5-82b7-4e55-ae8a-e464ed7b4277
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 2d98a740-581d-41b9-aa0d-a88b9d5ce938
+|     ncalrpc: umpo
+|   
+|     uuid: 2d98a740-581d-41b9-aa0d-a88b9d5ce938
+|     ncalrpc: actkernel
+|   
+|     uuid: 2d98a740-581d-41b9-aa0d-a88b9d5ce938
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 2d98a740-581d-41b9-aa0d-a88b9d5ce938
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 2d98a740-581d-41b9-aa0d-a88b9d5ce938
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 2d98a740-581d-41b9-aa0d-a88b9d5ce938
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+|     ncalrpc: umpo
+|   
+|     uuid: 8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+|     ncalrpc: actkernel
+|   
+|     uuid: 8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 8bfc3be1-6def-4e2d-af74-7c47cd0ade4a
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+|     ncalrpc: umpo
+|   
+|     uuid: 1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+|     ncalrpc: actkernel
+|   
+|     uuid: 1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 1b37ca91-76b1-4f5e-a3c7-2abfc61f2bb0
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+|     ncalrpc: umpo
+|   
+|     uuid: c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+|     ncalrpc: actkernel
+|   
+|     uuid: c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: c605f9fb-f0a3-4e2a-a073-73560f8d9e3e
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+|     ncalrpc: umpo
+|   
+|     uuid: 0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+|     ncalrpc: actkernel
+|   
+|     uuid: 0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 0d3e2735-cea0-4ecc-a9e2-41a2d81aed4e
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 2c7fd9ce-e706-4b40-b412-953107ef9bb0
+|     ncalrpc: umpo
+|   
+|     uuid: 2c7fd9ce-e706-4b40-b412-953107ef9bb0
+|     ncalrpc: actkernel
+|   
+|     uuid: 2c7fd9ce-e706-4b40-b412-953107ef9bb0
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 2c7fd9ce-e706-4b40-b412-953107ef9bb0
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 2c7fd9ce-e706-4b40-b412-953107ef9bb0
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 2c7fd9ce-e706-4b40-b412-953107ef9bb0
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: c521facf-09a9-42c5-b155-72388595cbf0
+|     ncalrpc: umpo
+|   
+|     uuid: c521facf-09a9-42c5-b155-72388595cbf0
+|     ncalrpc: actkernel
+|   
+|     uuid: c521facf-09a9-42c5-b155-72388595cbf0
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: c521facf-09a9-42c5-b155-72388595cbf0
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: c521facf-09a9-42c5-b155-72388595cbf0
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: c521facf-09a9-42c5-b155-72388595cbf0
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 1832bcf6-cab8-41d4-85d2-c9410764f75a
+|     ncalrpc: umpo
+|   
+|     uuid: 1832bcf6-cab8-41d4-85d2-c9410764f75a
+|     ncalrpc: actkernel
+|   
+|     uuid: 1832bcf6-cab8-41d4-85d2-c9410764f75a
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 1832bcf6-cab8-41d4-85d2-c9410764f75a
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 1832bcf6-cab8-41d4-85d2-c9410764f75a
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 1832bcf6-cab8-41d4-85d2-c9410764f75a
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 4dace966-a243-4450-ae3f-9b7bcb5315b8
+|     ncalrpc: umpo
+|   
+|     uuid: 4dace966-a243-4450-ae3f-9b7bcb5315b8
+|     ncalrpc: actkernel
+|   
+|     uuid: 4dace966-a243-4450-ae3f-9b7bcb5315b8
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 4dace966-a243-4450-ae3f-9b7bcb5315b8
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 4dace966-a243-4450-ae3f-9b7bcb5315b8
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 4dace966-a243-4450-ae3f-9b7bcb5315b8
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 55e6b932-1979-45d6-90c5-7f6270724112
+|     ncalrpc: umpo
+|   
+|     uuid: 55e6b932-1979-45d6-90c5-7f6270724112
+|     ncalrpc: actkernel
+|   
+|     uuid: 55e6b932-1979-45d6-90c5-7f6270724112
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 55e6b932-1979-45d6-90c5-7f6270724112
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 55e6b932-1979-45d6-90c5-7f6270724112
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 55e6b932-1979-45d6-90c5-7f6270724112
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 55e6b932-1979-45d6-90c5-7f6270724112
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: 76c217bc-c8b4-4201-a745-373ad9032b1a
+|     ncalrpc: umpo
+|   
+|     uuid: 76c217bc-c8b4-4201-a745-373ad9032b1a
+|     ncalrpc: actkernel
+|   
+|     uuid: 76c217bc-c8b4-4201-a745-373ad9032b1a
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 76c217bc-c8b4-4201-a745-373ad9032b1a
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 76c217bc-c8b4-4201-a745-373ad9032b1a
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 76c217bc-c8b4-4201-a745-373ad9032b1a
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 76c217bc-c8b4-4201-a745-373ad9032b1a
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: 88abcbc3-34ea-76ae-8215-767520655a23
+|     ncalrpc: umpo
+|   
+|     uuid: 88abcbc3-34ea-76ae-8215-767520655a23
+|     ncalrpc: actkernel
+|   
+|     uuid: 88abcbc3-34ea-76ae-8215-767520655a23
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 88abcbc3-34ea-76ae-8215-767520655a23
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 88abcbc3-34ea-76ae-8215-767520655a23
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 88abcbc3-34ea-76ae-8215-767520655a23
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 88abcbc3-34ea-76ae-8215-767520655a23
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: 2513bcbe-6cd4-4348-855e-7efb3c336dd3
+|     ncalrpc: umpo
+|   
+|     uuid: 2513bcbe-6cd4-4348-855e-7efb3c336dd3
+|     ncalrpc: actkernel
+|   
+|     uuid: 2513bcbe-6cd4-4348-855e-7efb3c336dd3
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 2513bcbe-6cd4-4348-855e-7efb3c336dd3
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 2513bcbe-6cd4-4348-855e-7efb3c336dd3
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 2513bcbe-6cd4-4348-855e-7efb3c336dd3
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 2513bcbe-6cd4-4348-855e-7efb3c336dd3
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: 20c40295-8dba-48e6-aebf-3e78ef3bb144
+|     ncalrpc: umpo
+|   
+|     uuid: 20c40295-8dba-48e6-aebf-3e78ef3bb144
+|     ncalrpc: actkernel
+|   
+|     uuid: 20c40295-8dba-48e6-aebf-3e78ef3bb144
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 20c40295-8dba-48e6-aebf-3e78ef3bb144
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 20c40295-8dba-48e6-aebf-3e78ef3bb144
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 20c40295-8dba-48e6-aebf-3e78ef3bb144
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 20c40295-8dba-48e6-aebf-3e78ef3bb144
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: b8cadbaf-e84b-46b9-84f2-6f71c03f9e55
+|     ncalrpc: umpo
+|   
+|     uuid: b8cadbaf-e84b-46b9-84f2-6f71c03f9e55
+|     ncalrpc: actkernel
+|   
+|     uuid: b8cadbaf-e84b-46b9-84f2-6f71c03f9e55
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: b8cadbaf-e84b-46b9-84f2-6f71c03f9e55
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: b8cadbaf-e84b-46b9-84f2-6f71c03f9e55
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: b8cadbaf-e84b-46b9-84f2-6f71c03f9e55
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: b8cadbaf-e84b-46b9-84f2-6f71c03f9e55
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: 857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+|     ncalrpc: umpo
+|   
+|     uuid: 857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+|     ncalrpc: actkernel
+|   
+|     uuid: 857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 857fb1be-084f-4fb5-b59c-4b2c4be5f0cf
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: umpo
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: actkernel
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-917e34cc39cc5458a7
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: umpo
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: actkernel
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: LRPC-917e34cc39cc5458a7
+|   
+|     uuid: 697dcda9-3ba9-4eb2-9247-e11f1901b0d2
+|     ncalrpc: LRPC-60543596145fb47afc
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: umpo
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: actkernel
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-917e34cc39cc5458a7
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: LRPC-60543596145fb47afc
+|   
+|     uuid: d09bdeb5-6171-4a34-bfe2-06fa82652568
+|     ncalrpc: csebpub
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: umpo
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: actkernel
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: LRPC-d35af0ca567da8c685
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: LSMApi
+|   
+|     netbios: \\RELEVANT
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncacn_np: \pipe\LSM_API_service
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: OLE04BF445CC61D620DAA4CE8CDC379
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: LRPC-afae49a57e6085d84f
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: LRPC-917e34cc39cc5458a7
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: LRPC-60543596145fb47afc
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: csebpub
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: dabrpc
+|   
+|     uuid: 9b008953-f195-4bf9-bde0-4471971e58ed
+|     ncalrpc: LRPC-b4a7d95c4250d970aa
+|   
+|     uuid: 76f226c3-ec14-4325-8a99-6a46348418af
+|     ncalrpc: WMsgKRpc057470
+|   
+|     netbios: \\RELEVANT
+|     uuid: 76f226c3-ec14-4325-8a99-6a46348418af
+|     ncacn_np: \PIPE\InitShutdown
+|   
+|     uuid: 76f226c3-ec14-4325-8a99-6a46348418af
+|     ncalrpc: WindowsShutdown
+|   
+|     uuid: d95afe70-a6d5-4259-822e-2c84da1ddb0d
+|     ncalrpc: WMsgKRpc057470
+|   
+|     netbios: \\RELEVANT
+|     uuid: d95afe70-a6d5-4259-822e-2c84da1ddb0d
+|     ncacn_np: \PIPE\InitShutdown
+|   
+|     uuid: d95afe70-a6d5-4259-822e-2c84da1ddb0d
+|_    ncalrpc: WindowsShutdown
+
+# Nmap done at Tue Jun 29 17:27:42 2021 -- 1 IP address (1 host up) scanned in 188.50 seconds

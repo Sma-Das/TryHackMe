@@ -1,0 +1,40 @@
+# Nmap 7.91 scan initiated Tue Jun 29 17:29:29 2021 as: nmap --script vuln -oN nmap/vulns 10.10.227.93
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for 10.10.227.93
+Host is up (0.20s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+|_sslv2-drown: 
+
+Host script results:
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: ERROR: Script execution failed (use -d to debug)
+| smb-vuln-ms17-010: 
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1
+|        servers (ms17-010).
+|           
+|     Disclosure date: 2017-03-14
+|     References:
+|       https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+|       https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+
+# Nmap done at Tue Jun 29 17:46:25 2021 -- 1 IP address (1 host up) scanned in 1015.37 seconds
