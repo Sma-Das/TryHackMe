@@ -1,0 +1,32 @@
+# Nmap 7.91 scan initiated Fri Jun 25 10:56:50 2021 as: nmap -sC -p -1000 -oN nmap/initial 10.10.120.200
+Nmap scan report for 10.10.120.200
+Host is up (0.14s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+|_clock-skew: mean: 1h40m00s, deviation: 2h53m12s, median: 0s
+|_nbstat: NetBIOS name: JON-PC, NetBIOS user: <unknown>, NetBIOS MAC: 02:36:b2:52:e1:17 (unknown)
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: Jon-PC
+|   NetBIOS computer name: JON-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-06-25T01:56:55-05:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-25T06:56:55
+|_  start_date: 2021-06-25T06:53:33
+
+# Nmap done at Fri Jun 25 10:57:09 2021 -- 1 IP address (1 host up) scanned in 19.47 seconds

@@ -1,0 +1,45 @@
+# Nmap 7.91 scan initiated Fri Jun 25 11:05:21 2021 as: nmap -vvv -sS --script vuln -oN nmap/vulns 10.10.120.200
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for 10.10.120.200
+Host is up, received reset ttl 127 (0.15s latency).
+Scanned at 2021-06-25 11:05:56 +04 for 101s
+Not shown: 991 closed ports
+Reason: 991 resets
+PORT      STATE SERVICE       REASON
+135/tcp   open  msrpc         syn-ack ttl 127
+139/tcp   open  netbios-ssn   syn-ack ttl 127
+445/tcp   open  microsoft-ds  syn-ack ttl 127
+3389/tcp  open  ms-wbt-server syn-ack ttl 127
+|_sslv2-drown: 
+49152/tcp open  unknown       syn-ack ttl 127
+49153/tcp open  unknown       syn-ack ttl 127
+49154/tcp open  unknown       syn-ack ttl 127
+49157/tcp open  unknown       syn-ack ttl 127
+49161/tcp open  unknown       syn-ack ttl 127
+
+Host script results:
+|_samba-vuln-cve-2012-1182: NT_STATUS_ACCESS_DENIED
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED
+| smb-vuln-ms17-010: 
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1
+|        servers (ms17-010).
+|           
+|     Disclosure date: 2017-03-14
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+|       https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+|_      https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Fri Jun 25 11:07:37 2021 -- 1 IP address (1 host up) scanned in 135.95 seconds
