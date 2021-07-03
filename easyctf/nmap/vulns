@@ -1,0 +1,36 @@
+# Nmap 7.91 scan initiated Tue Jun 29 01:53:52 2021 as: nmap --script vuln -oN nmap/vulns 10.10.172.9
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for 10.10.172.9
+Host is up (0.17s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+|_sslv2-drown: 
+80/tcp   open  http
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|_  /robots.txt: Robots file
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+|_      http://ha.ckers.org/slowloris/
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+2222/tcp open  EtherNetIP-1
+
+# Nmap done at Tue Jun 29 01:59:51 2021 -- 1 IP address (1 host up) scanned in 359.00 seconds
