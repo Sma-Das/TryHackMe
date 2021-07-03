@@ -1,0 +1,24 @@
+# Nmap 7.91 scan initiated Thu Jul  1 22:25:17 2021 as: nmap -sC -sV -T4 -oN nmap/initial.nmap -v 10.10.175.140
+Warning: 10.10.175.140 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.175.140
+Host is up (0.14s latency).
+Not shown: 995 closed ports
+PORT      STATE    SERVICE VERSION
+22/tcp    open     ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 6e:fa:ef:be:f6:5f:98:b9:59:7b:f7:8e:b9:c5:62:1e (RSA)
+|   256 ed:64:ed:33:e5:c9:30:58:ba:23:04:0d:14:eb:30:e9 (ECDSA)
+|_  256 b0:7f:7f:7b:52:62:62:2a:60:d4:3d:36:fa:89:ee:ff (ED25519)
+80/tcp    open     http    Apache httpd 2.4.29 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+2492/tcp  filtered groove
+5952/tcp  filtered unknown
+21571/tcp filtered unknown
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jul  1 22:25:40 2021 -- 1 IP address (1 host up) scanned in 23.02 seconds
