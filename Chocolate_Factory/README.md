@@ -1,6 +1,6 @@
 # [Chocolate Factory](https://tryhackme.com/room/chocolatefactory) TryHackMe CTF
 
-![logo](./.assets/golden_ticket.png)
+![logo](./assets/golden_ticket.png)
 ---
 
 ```shell
@@ -27,12 +27,12 @@ Ports:
 
 During the nmap scan, I noticed that it took much to scan - because within each of the special ports, there was a hint about which file to get.
 
-![hint](./.assets/hint.png)
+![hint](./assets/hint.png)
 
 Thankfully as nmap did that for us, I was able to quickly find `http://localhost/key_rev_key` which points to a directory on the box.
 Downloading the file and analysing it, it appears to be some sort of binary file we are meant to run... I decided that before I use Ghidra or equivilent I would run it through strings - and viola!
 
-![First key](./.assets/binary_key.png)
+![First key](./assets/binary_key.png)
 
 Some sort of key, throwing it into b64 and other base decodes doesn't reveal much so I postpone working on it.
 
@@ -58,7 +58,7 @@ Doing this I discover some interesting directories.
 ```
 Going into `home.php` revealed it to be a web-side command shell.
 
-![home page](./.assets/home.png)
+![home page](./assets/home.png)
 
 I then use a python reverse shell to give myself better access to it
 ```shell
@@ -67,7 +67,7 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 
 I check the php code for `validate.php` which contains the plaintext username and password for charlie
 
-![validate](./.assets/validate.png)
+![validate](./assets/validate.png)
 
 Using his credentials simply takes me back to `validate.php`.
 
@@ -78,7 +78,7 @@ Now that I have box access, I navigate and investigate charlie's home directory,
 As charlie, I am now able to grab the user flag and submit it. My new focus is on Priviledge Escalation.
 I dutifully check charlie's sudo permissions even though I do not have his password.
 
-![sudo](./.assets/sudo.png)
+![sudo](./assets/sudo.png)
 
 We can sudo `/usr/bin/vi` without requiring a password - although with the caveat that we cannot run it as root - or is it?
 
