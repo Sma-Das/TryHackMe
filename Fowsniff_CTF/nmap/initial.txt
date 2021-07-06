@@ -1,0 +1,27 @@
+# Nmap 7.91 scan initiated Tue Jul  6 16:28:19 2021 as: nmap -sC -sV -v -oN nmap/initial.txt 10.10.38.237
+Increasing send delay for 10.10.38.237 from 0 to 5 due to 21 out of 69 dropped probes since last increase.
+Nmap scan report for 10.10.38.237
+Host is up (0.13s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 90:35:66:f4:c6:d2:95:12:1b:e8:cd:de:aa:4e:03:23 (RSA)
+|   256 53:9d:23:67:34:cf:0a:d5:5a:9a:11:74:bd:fd:de:71 (ECDSA)
+|_  256 a2:8f:db:ae:9e:3d:c9:e6:a9:ca:03:b1:d7:1b:66:83 (ED25519)
+80/tcp  open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Fowsniff Corp - Delivering Solutions
+110/tcp open  pop3    Dovecot pop3d
+|_pop3-capabilities: SASL(PLAIN) USER TOP PIPELINING AUTH-RESP-CODE UIDL CAPA RESP-CODES
+143/tcp open  imap    Dovecot imapd
+|_imap-capabilities: Pre-login post-login LITERAL+ SASL-IR capabilities ID OK ENABLE LOGIN-REFERRALS listed more have AUTH=PLAINA0001 IDLE IMAP4rev1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul  6 16:28:54 2021 -- 1 IP address (1 host up) scanned in 34.31 seconds

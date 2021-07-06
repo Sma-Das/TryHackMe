@@ -1,0 +1,57 @@
+# Nmap 7.91 scan initiated Tue Jul  6 16:28:48 2021 as: nmap -p- -T4 -v -oN nmap/all_ports.txt 10.10.38.237
+Increasing send delay for 10.10.38.237 from 0 to 5 due to 33 out of 81 dropped probes since last increase.
+Warning: 10.10.38.237 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.38.237
+Host is up (0.13s latency).
+Not shown: 65488 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+110/tcp   open     pop3
+143/tcp   open     imap
+1093/tcp  filtered proofd
+1306/tcp  filtered re-conn-proto
+2614/tcp  filtered neveroffline
+8808/tcp  filtered ssports-bcast
+8936/tcp  filtered unknown
+13274/tcp filtered unknown
+16009/tcp filtered unknown
+16302/tcp filtered unknown
+16767/tcp filtered unknown
+17622/tcp filtered unknown
+19040/tcp filtered unknown
+19609/tcp filtered unknown
+20033/tcp filtered unknown
+22997/tcp filtered unknown
+23438/tcp filtered unknown
+23593/tcp filtered unknown
+24608/tcp filtered unknown
+24646/tcp filtered unknown
+33844/tcp filtered unknown
+34151/tcp filtered unknown
+35993/tcp filtered unknown
+36883/tcp filtered unknown
+41323/tcp filtered unknown
+41432/tcp filtered unknown
+43298/tcp filtered unknown
+43876/tcp filtered unknown
+45608/tcp filtered unknown
+46468/tcp filtered unknown
+47141/tcp filtered unknown
+49976/tcp filtered unknown
+50455/tcp filtered unknown
+52426/tcp filtered unknown
+52777/tcp filtered unknown
+53749/tcp filtered unknown
+53796/tcp filtered unknown
+53887/tcp filtered unknown
+54977/tcp filtered unknown
+55508/tcp filtered unknown
+56037/tcp filtered unknown
+56964/tcp filtered unknown
+60676/tcp filtered unknown
+63153/tcp filtered unknown
+64434/tcp filtered unknown
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Tue Jul  6 16:45:49 2021 -- 1 IP address (1 host up) scanned in 1021.10 seconds

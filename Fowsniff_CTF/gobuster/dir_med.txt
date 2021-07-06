@@ -1,0 +1,8 @@
+/images               (Status: 301) [Size: 313] [--> http://10.10.38.237/images/]
+/index.html           (Status: 200) [Size: 2629]
+/security.txt         (Status: 200) [Size: 459]
+/assets               (Status: 301) [Size: 313] [--> http://10.10.38.237/assets/]
+/README.txt           (Status: 200) [Size: 1288]
+/robots.txt           (Status: 200) [Size: 26]
+/LICENSE.txt          (Status: 200) [Size: 17128]
+/server-status        (Status: 403) [Size: 300]
