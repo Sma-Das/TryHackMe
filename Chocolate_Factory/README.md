@@ -87,3 +87,21 @@ sudo vi -c ':!/bin/bash -i' /dev/null
 ```
 
 And we now have root access!
+
+Going into `/root` though reveals that we are not quite done yet. There's a python script which will reveal our final flag!
+
+![python script](./assets/root_script.png)
+
+The script is using a Fermet Cipher, which requires a cipher and its key to decode. The cipher is hardcoded into the script and we had found the key in an earlier question.
+
+Time to run the script and get our key...?
+
+![import error](./assets/import_error.png)
+
+Nope, the decoding library _is not even loaded_ onto the box and instead of trying to upload it to the box using http or scp, I throw in into an online decoder.
+
+![decoded flag](./assets/decoded_flag.png)
+
+And this room is _**complete!**_
+
+![willy wonka](./assets/willy_wonka.jpg)
