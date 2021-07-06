@@ -1,0 +1,5 @@
+/home.php             (Status: 200) [Size: 569]
+/home.jpg             (Status: 200) [Size: 65719]
+/index.html           (Status: 200) [Size: 1466]
+/image.png            (Status: 200) [Size: 1060347]
+/validate.php         (Status: 200) [Size: 93]
