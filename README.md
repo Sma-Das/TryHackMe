@@ -12,6 +12,6 @@ I am though, currently ranked 7822! Which puts me in the top 1% of users!
 
 I've put a lot more effort into my recently completed rooms! Please feel free to check those out
 
--->  Current latest is Chocolate Factory! 
+-->  Current latest is Cyborg!
 
 ![pentest](./.assets/pentesting.png)
