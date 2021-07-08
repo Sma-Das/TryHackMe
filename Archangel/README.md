@@ -10,7 +10,9 @@ export IP=10.10.62.137
 
 ---
 ## Index
-
+- [Enumeration](#enumeration)
+- [Gaining access](#getting-access-to-the-machine)
+- [PrivEsc](#escalating-priviledges)
 ---
 
 ### Enumeration
