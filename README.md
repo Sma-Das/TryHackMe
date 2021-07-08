@@ -12,6 +12,6 @@ I am though, currently [ranked 7227](https://tryhackme.com/p/ArcaneCheddar)! Whi
 
 I've put a lot more effort into my recently completed rooms! Please feel free to check those out
 
--->  Current latest is h4cked!
+-->  Current latest is Archangel!
 
 ![pentest](./.assets/pentesting.png)

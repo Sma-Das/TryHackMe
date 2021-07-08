@@ -1,0 +1,6 @@
+/images               (Status: 301) [Size: 313] [--> http://10.10.62.137/images/]
+/index.html           (Status: 200) [Size: 19188]
+/pages                (Status: 301) [Size: 312] [--> http://10.10.62.137/pages/]
+/flags                (Status: 301) [Size: 312] [--> http://10.10.62.137/flags/]
+/layout               (Status: 301) [Size: 313] [--> http://10.10.62.137/layout/]
+/licence.txt          (Status: 200) [Size: 5014]
