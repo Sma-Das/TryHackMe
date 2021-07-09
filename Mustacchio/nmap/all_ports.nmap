@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Fri Jul  9 13:51:40 2021 as: nmap -v -T4 -p- -oN nmap/all_ports.nmap 10.10.203.61
+Nmap scan report for 10.10.203.61
+Host is up (0.17s latency).
+Not shown: 65532 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+8765/tcp open  ultraseek-http
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Fri Jul  9 13:56:40 2021 -- 1 IP address (1 host up) scanned in 300.05 seconds

