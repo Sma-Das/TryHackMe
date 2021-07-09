@@ -1,8 +1,15 @@
 # Mustacchio CTF [TryHackMe](https://tryhackme.com/room/mustacchio)
 
+
+![Mustacchio](./assets/Mustacchio.png)
+
+---
+
 ```bash
 $ export IP=10.10.203.61
 ```
+
+---
 
 ### Enumeration
 
@@ -37,6 +44,10 @@ I couldn't find anything of value, tried a bit of SQL injection and php trickhou
 $ nmap -p- -T5 -v $IP -oN nmap/all_ports.nmap
 ```
 
+---
+
+### Finding access to the machine
+
 And we find a new port: `8765` which is named as being `ultraseek-http`.
 And viola! We have some sort of admin sign-in page and using the credentials we got earlier, we can now access the admin page.
 
@@ -56,6 +67,10 @@ And we manage to crack the hash! `urieljames`!
 It's also important to note that you _could not_ brute force it with hydra, as the machine cannot be accessed with barry's machine password.
 
 I also did access the `user.txt` flag using the xml exploit just to spare me from swapping out of the terminal to the broswer.
+
+---
+
+### Priviledge Escalation
 
 Onwards to privesc. I initially tried to load linpeas.sh onto the machine but it just was not playing nice, so I decided to do it _manually_, bleugh.
 So I kick off with the easiest (and thankfully correct) option of trying to locate SUIDs.
