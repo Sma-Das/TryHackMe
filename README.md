@@ -12,4 +12,4 @@ I am though, currently [ranked 6966](https://tryhackme.com/p/ArcaneCheddar)! Whi
 
 I've put a lot more effort into my recently completed rooms! Please feel free to check those out
 
--->  Current latest is [ColddBox: Easy!](https://github.com/Sma-Das/TryHackMe/tree/main/Colddbox_Easy)
+-->  Current latest is [ColddBox: Easy!](https://github.com/Sma-Das/TryHackMe/tree/main/ColddBox_Easy)
