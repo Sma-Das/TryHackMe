@@ -1,0 +1,57 @@
+# Nmap 7.91 scan initiated Mon Jul 12 14:08:37 2021 as: nmap -vvv -p 80,3389 -sC -sV -A -oN nmap/initial.nmap 10.10.109.175
+Nmap scan report for 10.10.109.175
+Host is up, received syn-ack (0.14s latency).
+Scanned at 2021-07-12 14:08:37 +04 for 18s
+
+PORT     STATE SERVICE       REASON  VERSION
+80/tcp   open  http          syn-ack Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 4 disallowed entries 
+|_/bin/ /config/ /umbraco/ /umbraco_client/
+|_http-title: Anthem.com - Welcome to our blog
+3389/tcp open  ms-wbt-server syn-ack Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: WIN-LU09299160F
+|   NetBIOS_Domain_Name: WIN-LU09299160F
+|   NetBIOS_Computer_Name: WIN-LU09299160F
+|   DNS_Domain_Name: WIN-LU09299160F
+|   DNS_Computer_Name: WIN-LU09299160F
+|   Product_Version: 10.0.17763
+|_  System_Time: 2021-07-12T10:08:48+00:00
+| ssl-cert: Subject: commonName=WIN-LU09299160F
+| Issuer: commonName=WIN-LU09299160F
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-07-11T09:43:42
+| Not valid after:  2022-01-10T09:43:42
+| MD5:   841b 4489 fbad 2b96 ff6b 20f7 4c13 a0a3
+| SHA-1: fc3e 0070 998d 0869 a568 3dff d0d8 c99e 4fa2 4de0
+| -----BEGIN CERTIFICATE-----
+| MIIC4jCCAcqgAwIBAgIQH/bIW6StOYpEZIysc8xMXDANBgkqhkiG9w0BAQsFADAa
+| MRgwFgYDVQQDEw9XSU4tTFUwOTI5OTE2MEYwHhcNMjEwNzExMDk0MzQyWhcNMjIw
+| MTEwMDk0MzQyWjAaMRgwFgYDVQQDEw9XSU4tTFUwOTI5OTE2MEYwggEiMA0GCSqG
+| SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPmViFd/DNh4Zn0V38CUsPW4U0vWNAV+gY
+| MrMXieh4tIfslONH6JhyUsKors+ohXDBJKxAug2+g+TX7pYg28zZdomKva5/JCuu
+| Se22NBz/ZsDhF3KJiB7DrQI62LjqiN+jqoPLKePFrUuEKxrWB9KH+neOP3OvUV3l
+| VnUIPAaQR3xC5QpnitNeTCIFdm98uEURqUOiLMFIsUotwtbpU4+roBCiZd37ocq6
+| sl+dTE22mg0OqhFNs7Qdjvt6pgvCUWKHKKgbMo5GReqroJ0BqGkphYv3VqPHPLNY
+| nWO/KkG3PJx9P3sqLtt42THaO+nSNrhg9QIgdCtvDtLhedz2nhK1AgMBAAGjJDAi
+| MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsF
+| AAOCAQEANJbI+Dj76kMwzwK6zyQDeGXhT9MieHEPN9spaPquZixbK0I+q6H81GTA
+| /DKilC9ixk59T0jGPWgv3tYBzMkyRq9ToEDwyVYEt/yq2IYb4cVSJW1Fn0nso5V5
+| SfcHeYWhFXefmIk4KPpc3Ccb1NcBN7UNF5/w0TkIOcXFPYvGffTC1vXAdCKLWMes
+| 5vCrIG3EGIViHgzsGQ3qSPiw2GmNkAn3Y9lua6bHza6q2/iThexhvH5KGhinFtoS
+| hi8JamtXw1Jr8niFRLgqBJZtg6sIoXoPWLPro+6YcEMztbNZdtOt7/lUUk0LyQtT
+| v66qNzY0b+y62iYsokb3dhdDJc+AMg==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2021-07-12T10:08:54+00:00; 0s from scanner time.
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 12 14:08:55 2021 -- 1 IP address (1 host up) scanned in 18.08 seconds

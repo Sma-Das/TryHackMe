@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Mon Jul 12 14:08:41 2021 as: nmap -p- -T4 -v -oN nmap/all_ports.txt 10.10.109.175
+Nmap scan report for 10.10.109.175
+Host is up (0.17s latency).
+Not shown: 65533 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Mon Jul 12 14:13:15 2021 -- 1 IP address (1 host up) scanned in 273.54 seconds
