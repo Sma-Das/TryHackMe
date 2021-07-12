@@ -1,4 +1,4 @@
-# Anthem CTF
+# Anthem CTF [TryHackMe](https://tryhackme.com/room/anthem)
 
 ---
 
@@ -44,7 +44,7 @@ Interesting directories:
 
 Going into `robots.txt` we notice some interesting and juicy information.
 
-A potential password: `UmbracoIsTheBest!`
+A potential password: `****************!`
 CMS (control management system): `umbraco`
 
 We can also log into the umbraco center if needed now!
