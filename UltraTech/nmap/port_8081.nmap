@@ -1,0 +1,14 @@
+# Nmap 7.91 scan initiated Fri Jul 16 00:52:17 2021 as: nmap -sC -sV -p 8081 -v -oN nmap/port_8081.nmap 10.10.111.7
+Nmap scan report for 10.10.111.7
+Host is up (0.18s latency).
+
+PORT     STATE SERVICE VERSION
+8081/tcp open  http    Node.js Express framework
+|_http-cors: HEAD GET POST PUT DELETE PATCH
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 16 00:52:30 2021 -- 1 IP address (1 host up) scanned in 13.73 seconds

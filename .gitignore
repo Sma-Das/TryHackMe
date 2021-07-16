@@ -1,3 +1,5 @@
 hydra.restore
 .DS_Store
 *.zip
+password_hold.txt
+hash_hold.txt

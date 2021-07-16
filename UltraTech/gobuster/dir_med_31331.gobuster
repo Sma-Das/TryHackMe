@@ -1,0 +1,7 @@
+/images               (Status: 301) [Size: 324] [--> http://10.10.205.213:31331/images/]
+/index.html           (Status: 200) [Size: 6092]
+/partners.html        (Status: 200) [Size: 1986]
+/css                  (Status: 301) [Size: 321] [--> http://10.10.205.213:31331/css/]
+/js                   (Status: 301) [Size: 320] [--> http://10.10.205.213:31331/js/]
+/javascript           (Status: 301) [Size: 328] [--> http://10.10.205.213:31331/javascript/]
+/robots.txt           (Status: 200) [Size: 53]
