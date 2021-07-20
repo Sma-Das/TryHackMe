@@ -1,0 +1,7 @@
+/images               (Status: 301) [Size: 236] [--> http://10.10.202.219/images/]
+/blog                 (Status: 301) [Size: 234] [--> http://10.10.202.219/blog/]
+/sitemap              (Status: 200) [Size: 0]
+/rss                  (Status: 301) [Size: 0] [--> http://10.10.202.219/feed/]
+/login                (Status: 302) [Size: 0] [--> http://10.10.202.219/wp-login.php]
+/0                    (Status: 301) [Size: 0] [--> http://10.10.202.219/0/]
+/admin                (Status: 301) [Size: 235] [--> http://10.10.202.219/admin/]
