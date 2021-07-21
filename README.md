@@ -12,4 +12,4 @@ I am though, currently [ranked 6966](https://tryhackme.com/p/ArcaneCheddar)! Whi
 
 I've put a lot more effort into my recently completed rooms! Please feel free to check those out
 
--->  Current latest is [Mr Robot!](https://github.com/Sma-Das/TryHackMe/tree/main/Mr_Robot)
+-->  Current latest is [Boiler CTF!](https://github.com/Sma-Das/TryHackMe/tree/main/Boiler_CTF)
