@@ -1,0 +1,12 @@
+Look like a map
+Location:
+/diningRoom/
+/teaRoom/
+/artRoom/
+/barRoom/
+/diningRoom2F/
+/tigerStatusRoom/
+/galleryRoom/
+/studyRoom/
+/armorRoom/
+/attic/

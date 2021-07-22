@@ -1,0 +1,5 @@
+/images               (Status: 301) [Size: 313] [--> http://10.10.17.130/images/]
+/index.html           (Status: 200) [Size: 692]
+/css                  (Status: 301) [Size: 310] [--> http://10.10.17.130/css/]
+/js                   (Status: 301) [Size: 309] [--> http://10.10.17.130/js/]
+/attic                (Status: 301) [Size: 312] [--> http://10.10.17.130/attic/]

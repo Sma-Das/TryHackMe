@@ -1,0 +1,7 @@
+emblem{fec832623ea498e20bf4fe1821d58727}
+lock_pick{037b35e2ff90916a9abf99129c8e1837}
+music_sheet{362d72deaf65f5bdc63daece6a1f676e}
+gold_emblem{58a8c41a9d08b8a4e38d02a4d7ff4843}
+shield_key{48a7a9227cd7eb89f0a062590798cbac}
+blue_jewel{e1d457e96cac640f863ec7bc475d48aa}
+helmet_key{458493193501d2b94bbab2e727f8db4b}
