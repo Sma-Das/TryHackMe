@@ -1,0 +1,32 @@
+{
+    "results": [
+        {
+            "statement_id": 0,
+            "series": [
+                {
+                    "name": "databases",
+                    "columns": [
+                        "name"
+                    ],
+                    "values": [
+                        [
+                            "creds"
+                        ],
+                        [
+                            "docker"
+                        ],
+                        [
+                            "tanks"
+                        ],
+                        [
+                            "mixer"
+                        ],
+                        [
+                            "_internal"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -12,4 +12,4 @@ I am though, currently [ranked 3977](https://tryhackme.com/p/ArcaneCheddar)! Whi
 
 I've put a lot more effort into my recently completed rooms! Please feel free to check those out
 
--->  Current latest is [0day CTF!](https://github.com/Sma-Das/TryHackMe/tree/main/0day)
+-->  Current latest is [Sweettooth inc. CTF!](https://github.com/Sma-Das/TryHackMe/tree/main/Sweettooth_inc)
