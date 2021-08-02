@@ -1,0 +1,21 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.93.83
++ Target Hostname:    jacobtheboss.box
++ Target Port:        80
++ Start Time:         2021-08-02 13:37:23 (GMT4)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.6 (CentOS) PHP/7.3.20
++ Retrieved x-powered-by header: PHP/7.3.20
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Apache/2.4.6 appears to be outdated (current is at least Apache/2.4.12). Apache 2.0.65 (final release) and 2.2.29 are also current.
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ OSVDB-877: HTTP TRACE method is active, suggesting the host is vulnerable to XST
++ OSVDB-3268: /public/: Directory indexing found.
++ OSVDB-3092: /public/: This might be interesting...
++ OSVDB-3093: /admin/auth.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3268: /icons/: Directory indexing found.
++ Server leaks inodes via ETags, header found with file /icons/README, fields: 0x13f4 0x438c034968a80 
++ OSVDB-3233: /icons/README: Apache default file found.
