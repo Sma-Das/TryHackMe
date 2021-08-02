@@ -2,7 +2,7 @@
 
 ---
 
-![](https://tryhackme-images.s3.amazonaws.com/room-icons/065e4dc344a4c5fc9155dd4ae9eca52b.jpeg)
+![](./.assets/logo.jpeg)
 
 ---
 
@@ -183,4 +183,4 @@ Recommended!
 
 ---
 
-![](https://w7.pngwing.com/pngs/769/261/png-transparent-jboss-enterprise-application-platform-wildfly-red-hat-java-java-server-pages-hat-text-logo.png)
+![](./.assets/app.png)
