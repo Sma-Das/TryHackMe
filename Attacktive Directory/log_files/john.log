@@ -1,0 +1,8 @@
+Using default input encoding: UTF-8
+Loaded 1 password hash (krb5asrep, Kerberos 5 AS-REP etype 17/18/23 [MD4 HMAC-MD5 RC4 / PBKDF2 HMAC-SHA1 AES 128/128 SSE2 4x])
+Will run 2 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+[REDACTED]   ($krb5asrep$23$svc-admin@SPOOKYSEC.LOCAL)
+1g 0:00:00:00 DONE (2021-08-20 14:29) 20.00g/s 133120p/s 133120c/s 133120C/s [REDACTED]..[REDACTED]
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

