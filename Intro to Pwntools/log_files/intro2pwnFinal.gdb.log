@@ -1,0 +1,17 @@
+Starting program: /home/buzz/IntroToPwntools/IntroToPwntools/shellcraft/intro2pwnFinal < output
+Hello There. Do you have an input for me?
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0xffffd8f9 in ?? ()
+LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
+────────────────────────────────────────────────────────────[ REGISTERS ]────────────────────────────────────────────────────────────
+ EAX  0xffffd4c0 ◂— 0x61616161 ('aaaa')
+ EBX  0x61616172 ('raaa')
+ ECX  0xf7fc15c0 (_IO_2_1_stdin_) ◂— mov    byte ptr [eax], ah /* 0xfbad2088 */
+ EDX  0xf7fc289c (_IO_stdfile_0_lock) ◂— 0
+ EDI  0x0
+ ESI  0xf7fc1000 (_GLOBAL_OFFSET_TABLE_) ◂— 0x1d7d8c
+ EBP  0x61616173 ('saaa')
+ ESP  0xffffd510 ◂— 0x90909090
+ EIP  0xffffd8f9 ◂— 0x2e2a3a00
+
