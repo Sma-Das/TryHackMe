@@ -77,13 +77,13 @@ Cause a buffer overflow on `intro2pwn1`. What was detected?
 echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" | ./intro2pwn1
 ```
 
+`*** stack smashing detected ***: <unknown> terminated Aborted (core dumped)`
+
 Do the same for `intro2pwn2`
 
 ```bash
 echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" | ./intro2pwn2
 ```
-
-`*** stack smashing detected ***: <unknown> terminated Aborted (core dumped)`
 
 `Segmentation fault (core dumped)`
 
@@ -176,6 +176,8 @@ connect.send(payload)
 
 print(connect.recvn(34))
 ```
+
+Follows the same methodology as before - just a practical demonstration
 
 --------------------------------------------------------------------------------
 
